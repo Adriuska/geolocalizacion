@@ -91,7 +91,7 @@ final class HomeController extends AbstractController
                 'lastActivity' => $user['last_activity']
             ];
         }, $nearbyUsers);
-
+              
         return $this->json([
             'success' => true,
             'data' => [
